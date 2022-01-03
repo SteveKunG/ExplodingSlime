@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[34,)"
+license="All rights reserved"
+
+[[mods]]
+modId="exploding_slime"
+version="1.0.0"
+displayName="Exploding Slime"
+description="SteveKunG's Content!"
+authors="SteveKunG"
+
+[[dependencies.exploding_slime]]
+    modId="forge"
+    mandatory=true
+    versionRange="[34,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.exploding_slime]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.3,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.exploding_slime]]
+    modId="stevekungs_lib"
+    mandatory=true
+    versionRange="[4.0.0,)"
+    ordering="NONE"
+    side="BOTH"

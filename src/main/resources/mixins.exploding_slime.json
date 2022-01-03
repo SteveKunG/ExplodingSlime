@@ -1,0 +1,19 @@
+{
+    "required": true,
+    "minVersion": "0.8.2",
+    "compatibilityLevel": "JAVA_8",
+    "package": "com.stevekung.exploding_slime.mixin",
+    "refmap": "mixins.exploding_slime.refmap.json",
+    "target": "@env(DEFAULT)",
+    "mixins": [
+        "MixinSlimeEntity_AttackGoal",
+        "MixinSlimeEntity"
+    ],
+    "client": [
+        "MixinMagmaCubeRenderer",
+        "MixinSlimeRenderer"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
